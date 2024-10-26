@@ -33,7 +33,7 @@ let milisegundos = 0;
 
 function contar_tempo() {
     intervalo = setInterval(() => {
-        milisegundos++;
+        milisegundos+=10;
         if (milisegundos > 1000) {
             seconds += 1
             milisegundos = 0;
