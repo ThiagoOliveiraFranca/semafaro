@@ -39,7 +39,7 @@ function contar_tempo() {
             milisegundos = 0;
         }
         document.getElementById("tempo").textContent = seconds + " : " + milisegundos;
-    }, 1); 
+    }, 10); 
 }
 
 function parar() {
