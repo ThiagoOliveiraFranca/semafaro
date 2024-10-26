@@ -9,9 +9,11 @@
 </head>
 <body>
 
-    <div id="tempo">0:000</div>
-
+    
     <div class="semafaro">
+        <h3 ><label id="pronto">Pronto?</label></h3>
+        <div id="tempo">0:000</div>
+
         <div class="estrutura">
             <div id="l1">
                 <div class="luzes_fixas"></div>
@@ -38,8 +40,7 @@
         </div>
 
         <div id="botao_comecar">
-            <button type="button" onclick="comecar()">Iniciar</button>
-            <button type="button" onclick="parar()">Parar</button>
+            <button type="button" id="botao_start" onclick="botao()"><label>Clique aqui!</label></button>
         </div>
     </div>
 
